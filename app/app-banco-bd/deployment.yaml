@@ -2,8 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 
 metadata:
-  name: app-banco-bd-deployment
-spec:
+  name
   literals:
     - SERVICE_NAME=app-banco-bd
   replicas: 1
@@ -20,3 +19,5 @@ spec:
           image: next-app:latest
           ports:
             - containerPort: 3000
+
+            tem que mudar muita coisa aqui no deployment 

@@ -1,7 +1,0 @@
-resources:
-  - deployment.yaml
-  - service.yaml
-  - ingress.yaml
-  - configmap.yaml
-  
-name: app-banco-bd
